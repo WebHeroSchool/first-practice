@@ -1,5 +1,30 @@
 .wrapper {
   margin: auto;
   width: 80%;
-  border: dashed 2px red;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo {
+  padding: 40px 0;
+}
+
+.menu {
+  display: flex;
+  align-items: center;
+}
+
+.navigation__start,
+.navigation__services--underlined,
+.navigation__about,
+.navigation__blog,
+.navigation__contact {
+  padding: 0 13px;
+}
+
+.navigation__contact:last-child {
+  padding-right: 0;
 }
