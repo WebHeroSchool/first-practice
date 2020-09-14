@@ -4,12 +4,11 @@
 }
 
 .header {
-  padding: 40px 0;
+  padding: 32px 0;--
   display: flex;
   justify-content: space-between;
 }
 
-.logo,
 .navigation {
   padding: 40px 0;
 }
@@ -30,4 +29,5 @@
   border: dashed 1px red;
   background: url("/images/logo.svg");
   background-repeat: no-repeat;
+  align-items: center;
 }
