@@ -4,6 +4,7 @@
 }
 
 .header {
+  padding: 40px 0;
   display: flex;
   justify-content: space-between;
 }
@@ -13,11 +14,20 @@
   padding: 40px 0;
 }
 
-.menu {
-  display: flex;
-  align-items: center;
+/*
+ .logo {
+ font: bold 24px/31px "pt serif", arial, helvetica, sans-serif;
 }
+*/
 
 .navigation:last-child {
   padding-right: 0;
+}
+
+.logo {
+  width: 190px;
+  height: 35px;
+  border: dashed 1px red;
+  background: url("/images/logo.svg");
+  background-repeat: no-repeat;
 }
