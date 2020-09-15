@@ -12,7 +12,7 @@
 
 .navigation__item {
   margin-right: 26px;
-  font: 500 18px/21px "pt serif", arial, helvetica, sans-serif;
+  font: bold 18px/21px "pt serif", arial, helvetica, sans-serif;
   color: #000;
   text-decoration: none;
   position: relative;
@@ -33,7 +33,7 @@
 .logo__circle {
   position: absolute;
   left: 0;
-  top: 50%;
+  top: 40%;
   transform: translateY(-50%);
   width: 28px;
   height: 28px;
@@ -43,7 +43,7 @@
 
 .logo__circle_color_blue {
   left: 8px;
-  top: 56%;
+  top: 54%;
   background: #c8dbfb;
 }
 
