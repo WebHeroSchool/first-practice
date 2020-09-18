@@ -1,0 +1,32 @@
+@media (max-width: 768px) {
+  .header {
+    margin-bottom: 28px;
+  }
+
+  .main {
+    padding: 74% 0 0;
+    background-size: 74%;
+    background-position: top center;
+    text-align: center;
+  }
+
+  .main__title {
+    margin-bottom: 44px;
+    font: bold 30px/39px "pt serif", arial, helvetica, sans-serif;
+  }
+
+  .main__description {
+    margin-bottom: 25px;
+    font: 500 16px/19px "roboto", arial, helvetica, sans-serif "
+  }
+
+  .main__button {
+    font: 500 14px/16px "roboto", arial, helvetica, sans-serif;
+  }
+
+  .navigation .navigation__item {
+      display: block;
+  }
+}
+
+ 

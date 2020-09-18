@@ -13,7 +13,7 @@
 
 .navigation__item {
   margin-right: 26px;
-  font: bold 18px/21px "pt serif", arial, helvetica, sans-serif;
+  font: bold 18px/21px "roboto", arial, helvetica, sans-serif;
   color: #000;
   text-decoration: none;
   position: relative;
@@ -95,21 +95,17 @@
 
 .main__description {
   margin: 0 0 41px 0;
-  font: bold 18px/21px "pt serif", arial, helvetica, sans-serif;
+  font: bold 18px/21px "roboto", arial, helvetica, sans-serif;
 }
 
-.main__button {
-  font: bold 14px/16px "pt serif", arial, helvetica, sans-serif;
-}
-
-.main__title-text_highlihgt {
+.main__title-text_highlight {
   background: #ecf3ff;
 }
 
 .main__button {
   padding: 14px 16px;
   display: inline-block;
-  font: 14px/16px "pt serif", arial, helvetica, sans-serif;
+  font: 14px/16px "roboto", arial, helvetica, sans-serif;
   color: #fff;
   background: #0056ec;
   text-decoration: none;
@@ -120,3 +116,5 @@
 .main__button:hover {
   opacity: 0.5;
 }
+}
+
